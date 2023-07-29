@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DM+Sans:wght@400;500&family=Grandstander&family=Inter&family=Kanit&family=Lobster&family=Paytone+One&family=Poppins:wght@500;700&family=Raleway&family=Roboto:ital,wght@0,400;1,100;1,500&family=Rubik+Puddles&family=Ubuntu&display=swap");
+body {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  max-height: 866px;
+  background-color: white;
+  background-image: url(img/Background.png);
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav .left {
+  display: flex;
+  margin-top: 30px;
+  width: 700px;
+  margin-left: 70px;
+}
+header nav .left b {
+  margin-left: 25px;
+  font-size: 18px;
+}
+header nav .left div {
+  margin-top: 35px;
+}
+header nav .left img {
+  margin-top: 30px;
+}
+header nav .img2 {
+  margin-top: 55px;
+}
+header main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 152px;
+}
+header main .left {
+  margin-right: 100px;
+  margin-left: 137px;
+}
+header main .left h1 {
+  font-size: 60px;
+  width: 550px;
+}
+header main .left p {
+  width: 600px;
+  font-size: 17px;
+  color: rgb(56, 51, 51);
+}
+header main .left div {
+  display: flex;
+}
+header main .left button {
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 15px;
+  height: 50px;
+}
+header main .left button:first-child {
+  background-color: rgb(124, 58, 237);
+  color: white;
+}
+header main .left .button1 {
+  padding-bottom: 10px;
+  display: flex;
+  width: 150px;
+  margin-left: 10px;
+}
+header main .left .button1 img {
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav b {
+    display: none;
+  }
+  header nav .right img {
+    margin-right: 50px;
+  }
+  header main {
+    display: block;
+    background-image: url(img/Background\ \(1\).png);
+  }
+  header main .left {
+    margin-left: 75px;
+  }
+  header main .left h1 {
+    font-size: 48px;
+  }
+  header main .left p {
+    font-size: 16px;
+    width: 500px;
+  }
+  header main .phon {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 375px) {
+  nav .left img {
+    margin-left: -30px;
+  }
+  nav .img2 {
+    display: none;
+  }
+  nav b {
+    display: none;
+  }
+  .main {
+    margin-top: 40px;
+    display: block;
+    background-image: url(img/Background.png);
+  }
+  .main .h11 {
+    font-size: 36px;
+    width: 360px;
+  }
+  .main .p1 {
+    width: 320px;
+  }
+  .main .left {
+    margin-left: 20px;
+  }
+  .main .button2 {
+    width: 150px;
+    margin-left: 0;
+  }
+  .main .button1 {
+    width: 150px;
+    margin-left: 0px;
+  }
+  .main .button1 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+  }
+  .main .div1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .phon {
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
