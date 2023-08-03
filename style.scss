@@ -128,6 +128,7 @@ header{
     .row{
         display: flex;
         flex-wrap: wrap;
+        margin-left: -50px;
         .box{
             display: flex;
             width: 384px;
