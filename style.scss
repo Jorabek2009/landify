@@ -651,3 +651,181 @@ header{
         }
         
     }
+
+    //tabassum
+    .real{
+        max-width: 1440px;
+        height: 892px;
+        background:  #D5FAFC;
+        }
+        .img{
+            margin-left: 112px;
+            margin-top: 64px;
+        }
+        .name{
+            margin-left: 200px;
+            margin-top: -60px;
+            max-width: 688px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 50px;
+        }
+        .h5{
+        align-self: stretch;
+        color: var(--neutral-900, #111827);
+      margin-left: 200px;
+      margin-top: -30px;
+        }
+        .box1{
+        width: 388px;
+        padding: 32px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 2px 4px -2px rgba(17, 24, 39, 0.06), 0px 4px 8px -2px rgba(17, 24, 39, 0.10);
+       margin-left: 700px;
+       margin-top: -80px;
+        border-radius: 8px;
+      
+        }
+        .mark{ 
+            max-width: 16px;
+            height: 13px;  
+            position: relative;
+            top: 30px;
+            left: -130px;
+        }
+        .text1{
+        align-self: stretch;
+        color: var(--neutral-900, #111827);
+        width: 250px;
+        position: relative;
+        top: -10px;
+        left: 10px;
+        }
+        .ceo{
+            align-self: stretch;
+        color: var(--neutral-500, #6B7280);
+      
+        }
+        .box2{
+        width: 300px;
+        padding: 32px;
+        border-radius: 8px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 2px 4px -2px rgba(17, 24, 39, 0.06), 0px 4px 8px -2px rgba(17, 24, 39, 0.10);
+       margin-left: 300px;
+       margin-top: -200px;
+        }
+        .box3{
+        width: 300px;
+        padding: 32px;
+        border-radius: 8px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 2px 4px -2px rgba(17, 24, 39, 0.06), 0px 4px 8px -2px rgba(17, 24, 39, 0.10);
+     margin-left: 700px;
+     margin-top: -150px;
+        }
+        .ceo1{
+            align-self: stretch;
+        color: var(--neutral-500, #6B7280);
+     
+        }
+        .ceo3{
+        align-self: stretch;
+        color: var(--neutral-500, #6B7280);
+      
+        }
+        footer{
+            max-width:2,440px;
+            height:288px;
+            padding: 64px 112px 64px 112px;
+            background: #000000;
+            }
+            .chap{
+                color: #D1D5DB;
+            font-size: 14px;
+            font-family: Inter;
+            font-weight: 400;
+            line-height: 20px;
+            margin: 0px;
+            }
+            .license{
+                margin-top: -35px;
+                margin-left: 112px;
+                justify-content: center;
+            }
+            .features{
+                margin-top: -35px;
+                margin-left: 60px;
+            }
+            .pricing{
+                margin-top: -35px;
+                margin-left: 120px;
+            }
+            .news{
+                margin-top: -33px;
+                margin-left: 180px;
+            }
+            .help{
+                margin-top: -33px;
+                margin-left: 240px;
+            }
+            .contact{
+                margin-top: -33px;
+                margin-left: 300px;
+            }
+            .ong{
+                margin-top: -180px;
+                margin-left: 825px;
+                color: #D1D5DB;
+            }
+            .get{
+                margin-left: 70px;
+            }
+            .play{
+                margin-top: 25px;
+                margin-left: 80px;
+            }
+            @media(max-width:375px){
+                footer{
+                    max-width:3,440px;
+                    height:308px;
+                    padding: 64px 112px 64px 112px;
+                    background: #000000;
+                    }
+                .ong{
+                    color: #D1D5DB;
+                    margin-top: -10px;
+                    margin-left: -70px
+                }
+                .get{
+                    margin-left: 70px;
+                }
+                .help{
+                    margin-top: 5px;
+                    margin-left: -0px;
+                }
+                .contact{
+                    margin-left: 50px;
+                }
+                .lan{
+                    margin-top: -30px;
+                }
+               
+                .eng{
+                    margin-left: -60px;
+                }
+            }
+            @media(max-width:990px) and (min-width:375px) {
+                .ong{
+                    margin-top: -150px;
+                    margin-left: 325px;
+                    color: #D1D5DB;
+                }
+                .get{
+                    margin-left: 70px;
+                }
+            }
+        
+        
+        
